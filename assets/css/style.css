@@ -46,7 +46,7 @@ body::-webkit-scrollbar {
   left: 0;
   width: 100%;
   padding-top: 20px;
-  z-index: 5;
+  z-index: 2;
   transition: all .3s ease;
 }
 .navbar-background{
