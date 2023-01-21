@@ -34,21 +34,26 @@ body::-webkit-scrollbar {
 
 
 .wrapper{
-    background-image: url(../img/backgraund.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 800px;
+  background-image: url(../img/backgraund.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
 }
 
 .header{
-    transition: .4s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 20px;
+  z-index: 2;
+  transition: all .3s ease;
 }
 .navbar-background{
     background: var(--primary-color);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    transition: .4s ease;
 }
 
 .nav-link{
