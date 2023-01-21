@@ -32,6 +32,7 @@ body::-webkit-scrollbar {
     border-radius: 2px;
 }
 
+
 .wrapper{
     background-image: url(../img/backgraund.png);
     background-repeat: no-repeat;
@@ -56,7 +57,7 @@ body::-webkit-scrollbar {
 
 .navbar-brand{
     color: var(--light-color) !important;
-    font-size: 25px;
+    font-size: clamp(1.25rem, 1.142rem + 0.54vw, 1.563rem);
 }
 
 .navbar-brand> span{
@@ -64,8 +65,8 @@ body::-webkit-scrollbar {
 }
 
 .navbar-brand > img{
-    width: 25px;
-    height: 25px;
+    max-width: 25px;
+    max-height: 25px;
 }
 .navbar-toggler{
     border: none;
@@ -131,7 +132,7 @@ body::-webkit-scrollbar {
     background: var(--primary-color);
 }
 .number_start{
-    font-size: 75px;
+    font-size: clamp(2.813rem, 2.167rem + 3.23vw, 4.688rem);
 }
 
 
@@ -152,10 +153,11 @@ body::-webkit-scrollbar {
     background: var(--primary-color);
 }
 .pricing_block{
-    gap: 10px;
+    gap: 20px;
 }
 .list_item{
-    width: 330px;
+    width: 100%;
+    max-width: 330px;
     height: 150px;
 }
 .pricing_item{
